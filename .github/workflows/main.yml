@@ -18,9 +18,9 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ${{ secrets.PROD_SERVER }}
-        username: ${{ secrets.PROD_USER }}
-        password: ${{ secrets.PROD_PASSWORD }}
+        server: 223.27.147.38
+        username: apriana@research.limasakti.co.id
+        password: LBSHur4Hur4
         # local-dir: ./dist/
-        server-dir: ./public_html/apriana/
+        server-dir: ./apriana/
         dangerous-clean-slate: true
