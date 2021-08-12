@@ -21,6 +21,7 @@ jobs:
         server: 223.27.147.38
         username: apriana@research.limasakti.co.id
         password: LBSHur4Hur4
+        port: 21
         # local-dir: ./dist/
-        server-dir: ./apriana/
+        # server-dir: ./apriana/
         dangerous-clean-slate: true
