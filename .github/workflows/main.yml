@@ -23,4 +23,4 @@ jobs:
         password: LBSHur4Hur4
         # local-dir: ./dist/
         # server-dir: ./apriana/
-        # dangerous-clean-slate: true
+        # dangerous-clean-slate: true 
