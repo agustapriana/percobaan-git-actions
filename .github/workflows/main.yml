@@ -23,4 +23,4 @@ jobs:
         password: {{SERVER.PASSWORD}}
         # local-dir: ./dist/
         # server-dir: ./apriana/
-        # dangerous-clean-slate: true
+        # dangerous-clean-slate: true 
