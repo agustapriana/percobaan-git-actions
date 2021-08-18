@@ -18,9 +18,9 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: {{SERVER.HOST}}
-        username: {{SERVER.USER}}
-        password: {{SERVER.PASSWORD}}
+        server: {{SERVER.PROD_SERVER}}
+        username: {{SERVER.PROD_USER}} 
+        password: {{SERVER.PROD_PASSWORD}}
         # local-dir: ./dist/
         # server-dir: ./apriana/
         # dangerous-clean-slate: true 
